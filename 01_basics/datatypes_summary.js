@@ -1,6 +1,6 @@
 // Primitive
 
-// 7 types : String , Number , Boolean , null(empty) , undefined , symbol , BigInt\
+// 7 types : String , Number , Boolean , null(empty) , undefined , symbol , BigInt
 
 
 const score = 100
