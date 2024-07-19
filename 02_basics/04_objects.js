@@ -60,7 +60,7 @@ const course = {
 
 //course.courseInstructor
 
-const {courseInstructor : Instructor} = course
+const {courseInstructor : Instructor} = course     //de-structure
 
 // console.log(courseInstructor);
 console.log(Instructor);
