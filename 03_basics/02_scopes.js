@@ -39,14 +39,14 @@ if(true){
 // +++++++++++++++++++++++ interesting ++++++++++++++++++++++++++++
 
 
-console.log(addone(5));
+console.log(addone(5));   //this type of function can be access before declaration
 
 function addone(num) {
     return num + 1
 }
 
 
-addTwo(5)
+addTwo(5)     //this type of function can't be access before declaration
 const addTwo = function(num){
     return num + 2
 }
