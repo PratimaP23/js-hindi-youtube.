@@ -12,8 +12,8 @@ for (const key in myObject) {
 const programming = ["js","rb","py","java","cpp"]
 
 for (const key in programming) {
-    //console.log(programming[key]);
-}
+    //console.log(programming[key]);       //be can apply forin loop object as well an array but int array in forof print  
+}                                          //directly by index but forin index with arr
 
 // const map = new Map()
 // map.set('IN' , "India")
@@ -22,5 +22,5 @@ for (const key in programming) {
 // map.set('IN' , "India")
 
 // for (const key in map) {
-//     console.log( key);
-// }
+//     console.log( key);    //forin loop can't iterate object it does't gives error but without giving ans it 
+// }                         //simply trmuninate
