@@ -22,5 +22,5 @@ for (const key in programming) {
 // map.set('IN' , "India")
 
 // for (const key in map) {
-//     console.log( key);    //forin loop can't iterate object it does't gives error but without giving ans it 
+//     console.log( key);    //forin map can't iterate object it does't gives error but without giving ans it 
 // }                         //simply trmuninate
