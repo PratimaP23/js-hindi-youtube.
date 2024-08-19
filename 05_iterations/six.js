@@ -1,6 +1,6 @@
 //const coding = ["js","ruby","java","python","cpp"]
 
-// const values = coding.forEach( (item) => {
+// const values = coding.forEach( (item) => {     //foreach not return any value you want or not want
 //     //console.log(item);
 //     return item
 // })
