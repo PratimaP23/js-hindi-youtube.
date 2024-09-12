@@ -19,7 +19,7 @@
     addLanguage("python");
     addLanguage("typescript");
 
-    function addOptiLanguage(langName) {
+    function addOptiLanguage(langName) {              //optimize approach
         const li=document.createElement('li');
         li.appendChild(document.createTextNode(langName))
         document.querySelector('.language').appendChild(li)
@@ -30,7 +30,7 @@
     const secondLang = document.querySelector("li:nth-child(2)")
     console.log(secondLang);
     // secondLang.innerHTML= "Mojo"
-    const newli =document.createElement('li')
+    const newli =document.createElement('li')    //optimize approach
     newli.textContent="Mojo"
     secondLang.replaceWith(newli)
 
